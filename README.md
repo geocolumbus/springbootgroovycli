@@ -13,7 +13,7 @@ A simple groovy project for instantiating a Tomcat server and displaying a web p
 <pre>
 git clone https://github.com/geocolumbus/springbootgroovycli.git gr1
 cd gr1
-sprint run .
+spring run .
 # navigate to localhost:8080 in your browser
 </pre>
 
