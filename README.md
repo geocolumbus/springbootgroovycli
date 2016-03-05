@@ -49,4 +49,4 @@ class AppController {
 
 ## Client Side Code
 
-The client side code is the html in the templates folder and the css in the static folder.
+The client side code is just html in the templates folder and css in the static/css folder.
