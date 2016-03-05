@@ -29,7 +29,8 @@ class Grabs {}
 
 // In the AppController.groovy file.
 // The Spring Boot CLI will see this and include "spring-boot-starter-web".
-// Because we included thymeleaf, the "index" will cause templates/index.html to be loaded to localhost:8080
+// Because we included thymeleaf, the "index" will cause templates/index.html to be loaded
+// to localhost:8080
 @Controller
 class AppController {
 
