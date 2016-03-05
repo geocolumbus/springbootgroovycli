@@ -19,14 +19,17 @@ spring run .
 
 ## Simple server side code
 
-This is the total amount of groovy code I had to write!
+Very little code is required for the server side:
 
 <pre>
-// In the Grabs.groovy file
+// In the Grabs.groovy file.
+// Instructs the Spring Boot CLI to use the thymeleaf template engine.
 @Grab("spring-boot-starter-thymeleaf")
 class Grabs {}
 
-// In the AppController.groovy file
+// In the AppController.groovy file.
+// The Spring Boot CLI will see this and include "spring-boot-starter-web".
+// Because we included thymeleaf, the "index" will cause templates/index.html to be loaded to localhost:8080
 @Controller
 class AppController {
 
@@ -37,4 +40,4 @@ class AppController {
 }
 </pre>
 
-The rest of the code is the html in the templates folder and the css in the static folder.
+The client side code is the html in the templates folder and the css in the static folder.
