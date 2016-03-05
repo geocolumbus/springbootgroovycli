@@ -1,4 +1,4 @@
-# Sample Spring Boot CLI app
+# Sample Spring Boot CLI groovy app
 A simple groovy project for instantiating a Tomcat server and displaying a web page.
 
 
