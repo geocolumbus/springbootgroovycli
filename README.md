@@ -17,6 +17,12 @@ spring run .
 # navigate to localhost:8080 in your browser
 </pre>
 
+Make an executable jar if you wish:
+
+<pre>
+spring jar simple-groovy-app.jar .
+</pre>
+
 ## Simple server side code
 
 Very little code is required for the server side:
